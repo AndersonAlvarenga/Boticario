@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Boticário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="cssBoticario.css" />
+        <script type="text/javascript" src="jsBoticario.js"></script>
+
+    </head>
+    <body>
+        <section>
+            <div id ="barra" class = "barraDeMenu"> 
+                <a id = "minhaLoja">MINHA LOJA</a> 
+                <a id = "perfumaria">PERFUMARIA </a>
+                <a id="maquiagem">MAQUIAGEM</a>
+                <a id="cabelo">CABELOS</a>
+                <a id="infantil">INFANTIL</a>
+                <button id = "carrinho" type="button" onclick="somarValorProduto(10.00)">
+                    <img id="imgCarrinho"  src="Imagens/carrinho.png" alt="carrinho" width=25 heigth=25>
+                    <c id = "valorCarrinho"></c>
+                </button>
+            </div>
+        </section>
+        <div>
+            <section>
+                <div id = "cabecalhoListaProduto">ULTIMOS PRODUTOS</div>
+            </section>
+            <section>
+                <div id = "painelProdutos">
+                    <button id="botaoProduto1" type="button"  onclick="getValorProduto(0)">
+                        <div  id="imagem" class="figure">            
+                            <script>criaImagem("imagem", 0);</script>
+                        </div>
+                        <a id="nome1">
+                            <script>criarNome("nome1", 0)</script>
+                        </a>
+                        <br>
+                        <a id="valor1">
+                            <script>
+                                criarValor("valor1", 0);
+                            </script>
+                        </a>
+
+                    </button>
+
+
+                    <a id="produto2">
+                        <button id="botaoProduto2" type="button"  onclick="getValorProduto(1)">
+                            <div  id="imagem2" class="figure">            
+                                <script>criaImagem("imagem2", 1);</script>
+                            </div>
+                            <a id="nome2">
+                                <script>criarNome("nome2", 1)</script>
+                            </a>
+                            <br>
+                            <a id="valor2">
+                                <script>
+                                    criarValor("valor2", 1);
+                                </script>
+                            </a>
+                        </button>
+                    </a>
+                    <a id="produto3">
+                        <button id="botaoProduto3" type="button"  onclick="getValorProduto(2)">
+                            <div  id="imagem3" class="figure">            
+                                <script>criaImagem("imagem3", 2);</script>
+                            </div>
+                            <a id="nome3">
+                                <script>criarNome("nome3", 2)</script>
+                            </a>
+                            <br>
+                            <a id="valor3">
+                                <script>
+                                    criarValor("valor3", 2);
+                                </script>
+                            </a>
+                        </button>
+                    </a>
+                    <a id="produto4">
+                        <button id="botaoProduto4" type="button"  onclick="getValorProduto(3)">
+                            <div  id="imagem4" class="figure">            
+                                <script>criaImagem("imagem4", 3);</script>
+                            </div>
+                            <a id="nome4">
+                                <script>criarNome("nome4", 3)</script>
+                            </a>
+                            <br>
+                            <a id="valor4">
+                                <script>
+                                    criarValor("valor4", 3);
+                                </script>
+                            </a>
+                        </button>
+                    </a>
+                    <a id="produto5">
+                        <button id="botaoProduto5" type="button"  onclick="getValorProduto(4)">
+                            <div  id="imagem5" class="figure">            
+                                <script>criaImagem("imagem5", 4);</script>
+                            </div>
+                            <a id="nome5">
+                                <script>criarNome("nome5", 4)</script>
+                            </a>
+                            <br>
+                            <a id="valor5">
+                                <script>
+                                    criarValor("valor5", 4);
+                                </script>
+                            </a>
+                        </button>
+                    </a>
+                    <a id="produto6">
+                        <button id="botaoProduto6" type="button"  onclick="getValorProduto(5)">
+                            <div  id="imagem6" class="figure">            
+                                <script>criaImagem("imagem6", 5);</script>
+                            </div>
+                            <a id="nome6">
+                                <script>criarNome("nome6", 5)</script>
+                            </a>
+                            <br>
+                            <a id="valor6">
+                                <script>
+                                    criarValor("valor6", 5);
+                                </script>
+                            </a>
+                        </button>
+                    </a>
+
+                </div>
+            </section>
+
+        </div>
+
+    <head>
+
+    </head>
+</html>

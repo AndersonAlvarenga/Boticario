@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 de mar de 2020, 09:30:22
+    Author     : ander
+*/
+
+.barraDeMenu {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+#minhaLoja{
+    padding-right: 5px;
+}
+#perfumaria{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#maquiagem{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#cabelo{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#infantil{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#minhaLoja:hover{
+    font-size: 30px;
+    font-weight: 700;
+    border-right: solid;
+    border-color: gainsboro;
+}
+#perfumaria:hover{
+    font-size: 30px;
+    font-weight: 700;
+    border-right: solid;
+    border-left: solid;
+    border-color: gainsboro;
+}
+#cabelo:hover{
+    font-size: 30px;
+    font-weight: 700;
+    border-right: solid;
+    border-left: solid;
+    border-color: gainsboro;
+}
+#maquiagem:hover{
+    font-size: 30px;
+    font-weight: 700;
+    border-right: solid;
+    border-left: solid;
+    border-color: gainsboro;
+}
+#infantil:hover{
+    font-size: 30px;
+    font-weight: 700;
+    border-left: solid;
+    border-color: gainsboro;
+}
+#carrinho{
+    border:solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#valorCarrinho{
+    padding-top: 5px;
+    font-size: 20px;
+}
+#imgCarrinho{
+    padding-top: 3px;
+    padding-right: 5px;
+}
+#cabecalhoListaProduto{
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+#painelProdutos{
+    position:  absolute;
+    height: 700px;
+    width: 60%;
+    left: 460px;
+    border-radius: 10px;
+    padding-right: 15px;
+}
+#botaoProduto6{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 270px;
+    height: 333px;
+}
+#botaoProduto5{
+    position: relative;
+    left: 5px;
+    top: 10px;
+    width: 270px;
+    height: 333px;
+}
+#botaoProduto4{
+    position: relative;
+    top: 19px;
+    width: 270px;
+    height: 333px;
+}
+#botaoProduto3{
+    position: relative;
+    width: 270px;
+    height: 333px;
+    left: 10px;
+}
+#botaoProduto2{
+    position: relative;
+    width: 270px;
+    height: 333px;
+    left: 10px;
+    right: 10px;
+}
+#botaoProduto1{
+    position: relative;
+    width: 270px;
+    height: 333px;
+    
+    left: 1px;
+}
+
+
+
+
